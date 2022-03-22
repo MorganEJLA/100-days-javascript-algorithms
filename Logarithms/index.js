@@ -12,3 +12,17 @@ function sum(arr) {
     }
     return total;
 }
+
+
+function double(arr){
+    //takes an array and makes a new array 
+    //numbers passed are doubled. 
+    //loops arr length of the array and multiplies each value and pushes the new value to the new array.
+    //the array getting longer is in direct proportion to the input
+    let newArr = [];
+    for(let i =0; i <arr.length; i++){
+        newArr.push(2*arr[i]);
+    }
+    //answer: n numbers O(n)space
+    return newArr;
+}
